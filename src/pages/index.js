@@ -4,7 +4,6 @@ import LandingPage from './landing-page';
 
 const IndexPage = () => (
   <div>
-    Hello
     <LandingPage />
   </div>
 )

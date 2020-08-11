@@ -1,13 +1,27 @@
+html, body {
+  height:100%;
+  font-family: HiraginoSans-W2;
+  font-size: 13px;
+  letter-spacing: 0;
+  color: #132242;
+  line-height: 20px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: #132242;
+}
+
 * {
   margin: 0;
   padding: 0;
   color: #333
 }
 
-html, body {
-  height:100%;
-}
-
-body {
-  background-color: #132242;
+.btn {
+  cursor: pointer;
 }

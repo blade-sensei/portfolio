@@ -42,11 +42,11 @@ const Hero = () => {
               </span>
         </div>
       </div> 
-      <div className='hero-title'> Coyla  </div>
-      <div className='hero-subtitle'> Creating web things with love </div>
-      <div className='hero-details'>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</div>
-      <button> Explore </button>
-      <span onClick={handleShow}>
+      <h2 className='hero-title'>Coyla</h2>
+      <p className='hero-subtitle'> Creating web things with love </p>
+      <p className='hero-details'>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
+      <button className='action action-dark explore'>Explore</button>
+      <span className='action menu-icon' onClick={handleShow}>
         <BurgerMenuSvg/>
       </span>
     </div>
