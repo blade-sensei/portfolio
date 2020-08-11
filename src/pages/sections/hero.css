@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 29px;
+  height: 100vh;
 }
 
 .modal {
@@ -23,7 +24,7 @@
 
 .hero-title {
   padding: 0 45px;
-margin-top: 140px;
+margin-top: 50%;
 font-family: Futura-Bold;
 font-size: 42px;
 color: #9FEDEA;
@@ -33,16 +34,15 @@ letter-spacing: 0;
 .hero-subtitle {
   padding: 0 45px;
   font-family: Futura-Bold;
-font-size: 20px;
-color: #ECFDFE;
-letter-spacing: 0;
-text-align: justify;
+  font-size: 32px;
+  color: #F2FDFE;
+  letter-spacing: 0;
+  line-height: 38px;
 }
 
 .hero-details {
   padding: 0 45px;
   font-family: HiraginoSans-W2;
-font-size: 13px;
 color: #ECFDFE;
 letter-spacing: 0;
 line-height: 23px;
@@ -55,13 +55,14 @@ margin-top: 32px;
   height: 42px;
   background-color: transparent;
   font-family: HiraginoSans-W3;
-font-size: 13px;
 color: #46B8BC;
 letter-spacing: 0;
 text-align: center;
-margin-top: 59px;
+margin-top: 40%;
 align-self: center;
 }
+
+
 
 .explore:hover {
   border: 1px solid black;
