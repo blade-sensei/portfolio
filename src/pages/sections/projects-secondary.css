@@ -1,0 +1,61 @@
+.ProjectsSecondary {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-title {
+
+  color: #9FEDEA;
+}
+
+.projects {
+  display: grid;
+  row-gap: 22px;
+  margin: 0 20px;
+}
+
+.ProjectsSecondary .project-description {
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.links {
+  display: flex;
+}
+
+.ProjectsSecondary .project {
+  background: rgba(6,24,57,0.95);
+}
+
+.ProjectsSecondary .tags {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  padding: 0 45px;
+  padding-bottom: 10px;
+}
+
+.ProjectsSecondary .tags > span {
+  font-family: HiraginoSans-W5;
+  font-size: 13px;
+  color: #9FEDEA;
+  letter-spacing: 0;
+  text-align: justify;
+}
+
+.project-description {
+  flex-basis: 90%;
+}
+
+.ProjectsSecondary .links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProjectsSecondary .project-card-body {
+  display: flex;
+  margin-bottom: 20px
+}

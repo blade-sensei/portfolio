@@ -13,8 +13,8 @@ const ProjectsMain = () => (
       </div>
       <div className='links'>
       <div className='link-icons'>
-        <img className='btn' src='/content/link-pink.svg'/>
-        <img className='btn' src='/content/github.svg'/>
+        <img href='https://github.com/blade-sensei/rtn-front' className='btn' src='/content/link-pink.svg'/>
+        <img href='https://roadtoninja-f5ad8.firebaseapp.com' taget='_blank' className='btn' src='/content/github.svg'/>
         </div>
       </div>
       <div className='medias'>

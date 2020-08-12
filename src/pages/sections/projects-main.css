@@ -11,7 +11,7 @@
   padding-right: 40px;
 }
 
-.project-description {
+.ProjectsMain .project-description {
   font-family: HiraginoSans-W2;
 color: #132242;
 letter-spacing: 0;
@@ -19,18 +19,18 @@ text-align: center;
 line-height: 20px;
 }
 
-.project {
+.ProjectsMain .project {
   margin-bottom: 100px;
 }
 
-.links {
+.ProjectsMain .links {
   margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.links img {
+.ProjectsMain .links img {
   height: 32px;
   width: 32px;
 }
@@ -52,7 +52,7 @@ line-height: 20px;
   width: 100%;
 }
 
-.tags {
+.ProjectsMain .tags {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   column-gap: 10px;
@@ -61,7 +61,7 @@ line-height: 20px;
   padding-right: 40px;
 }
 
-.tags > span {
+.ProjectsMain .tags > span {
   background: #A1E8ED;
   font-family: HiraginoSans-W3;
   letter-spacing: 0;
