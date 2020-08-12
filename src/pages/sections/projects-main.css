@@ -1,4 +1,75 @@
 .ProjectsMain {
   background-color: #ECFDFE;
-  padding-top: 5px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  margin-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.project-description {
+  font-family: HiraginoSans-W2;
+color: #132242;
+letter-spacing: 0;
+text-align: center;
+line-height: 20px;
+}
+
+.project {
+  margin-bottom: 100px;
+}
+
+.links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links img {
+  height: 32px;
+  width: 32px;
+}
+
+.link-icons {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+
+.medias {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.medias img {
+  width: 100%;
+}
+
+.tags {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.tags > span {
+  background: #A1E8ED;
+  font-family: HiraginoSans-W3;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 5px 11px;
+  border-radius: 3px;
+}
+
+.project-description {
+  padding: 0 42px;
 }

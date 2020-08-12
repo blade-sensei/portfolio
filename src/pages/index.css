@@ -5,6 +5,12 @@ html, body {
   letter-spacing: 0;
   color: #132242;
   line-height: 20px;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
 }
 
 button {

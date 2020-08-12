@@ -3,7 +3,7 @@ import './projects-main.css'
 
 const ProjectsMain = () => (
   <div className='ProjectsMain'>
-    <h3>
+    <h3 className='subtitle'>
       Always building
     </h3>
     
@@ -12,11 +12,33 @@ const ProjectsMain = () => (
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
       <div className='links'>
-        <button> go to </button>
-        <button> github </button>
+      <div className='link-icons'>
+        <img className='btn' src='/content/link-pink.svg'/>
+        <img className='btn' src='/content/github.svg'/>
+        </div>
       </div>
       <div className='medias'>
-        <img src='' alt='gif'/>
+        <img src='/content/rtn.gif' alt='gif'/>
+      </div>
+      <div className='tags'>
+        <span>#tag</span>
+        <span>#tag</span>
+        <span>#tag</span>
+        <span>#tag</span>
+        <span>#tag</span>
+      </div>
+    </div>
+
+    <div className='project'>
+      <div className='project-description'>
+        Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
+      </div>
+      <div className='links'>
+        <img src='/content/link-pink.svg'/>
+        <img src='/content/github.svg'/>
+      </div>
+      <div className='medias'>
+        <img src='/content/review.gif' alt='gif'/>
       </div>
       <div className='tags'>
         <span>#tag</span>
@@ -30,29 +52,13 @@ const ProjectsMain = () => (
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
       <div className='links'>
-        <button> go to </button>
-        <button> github </button>
+        <div className='link-icons'>
+          <img src='/content/link-pink.svg'/>
+          <img src='/content/github.svg'/>
+        </div> 
       </div>
       <div className='medias'>
-        <img src='' alt='gif'/>
-      </div>
-      <div className='tags'>
-        <span>#tag</span>
-        <span>#tag</span>
-        <span>#tag</span>
-      </div>
-    </div>
-
-    <div className='project'>
-      <div className='project-description'>
-        Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
-      </div>
-      <div className='links'>
-        <button> go to </button>
-        <button> github </button>
-      </div>
-      <div className='medias'>
-        <img src='' alt='gif'/>
+        <img src='content/rtn.gif' alt='gif'/>
       </div>
       <div className='tags'>
         <span>#tag</span>
