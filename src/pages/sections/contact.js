@@ -7,15 +7,26 @@ const Contact = () => (
     <div className='description'>
     Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
     </div>
-    <button className='go-to'>
+    <a className='go-to'>
       Hello !
-    </button>
+    </a>
 
     <div className='links'>
-      <a href=''> link </a>
-      <a href=''> link </a>
-      <a href=''> link </a>
 
+      <div className='link-icons'>
+      <a href=''> 
+      <img src='/content/github-bot.svg'></img>
+      </a>
+      <a href=''>
+      <img src='/content/linkedin-bot.svg'></img>
+      </a>
+      <a href=''> 
+      <img src='/content/devto-bot.svg'></img>
+       </a>
+       <a href=''> 
+      <img src='/content/mail-bot.svg'></img>
+       </a>
+      </div>
     </div>
     <div className='copyright'>
       Coyla @ 2020

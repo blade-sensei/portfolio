@@ -4,7 +4,8 @@
 }
 
 .section-title {
-
+  padding-left: 40px;
+  padding-right: 40px;
   color: #9FEDEA;
 }
 
@@ -26,7 +27,10 @@
 }
 
 .ProjectsSecondary .project {
-  background: rgba(6,24,57,0.95);
+  background: #15274a;
+  box-shadow: rgba(0, 0, 0, 0.12) 0.3125rem 0.3125rem 0.9375rem;
+
+
 }
 
 .ProjectsSecondary .tags {
@@ -39,20 +43,18 @@
 
 .ProjectsSecondary .tags > span {
   font-family: HiraginoSans-W5;
-  font-size: 13px;
+  font-size: 0.9em;
   color: #9FEDEA;
   letter-spacing: 0;
   text-align: justify;
-}
-
-.project-description {
-  flex-basis: 90%;
 }
 
 .ProjectsSecondary .links {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  flex-basis: 30%;
+  margin-right: 15px;
 }
 
 .ProjectsSecondary .project-card-body {

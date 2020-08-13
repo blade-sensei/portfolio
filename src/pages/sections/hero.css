@@ -25,26 +25,27 @@
 }
 
 .hero-title {
-  padding: 0 45px;
-margin-top: 50%;
+  padding: 0 25px;
+margin-top: 37%;
 font-family: Futura-Bold;
-font-size: 42px;
+font-size: 3.2em;
 color: #9FEDEA;
 letter-spacing: 0;
 }
 
 .hero-subtitle {
-  padding: 0 45px;
+  padding: 0 25px;
   font-family: Futura-Bold;
-  font-size: 36px;
+  font-size: 2.4em;
   color: #F2FDFE;
   letter-spacing: 0;
-  line-height: 42px;
+  line-height: 47px;
+  font-weight: bold;
   
 }
 
 .hero-details {
-  padding: 0 45px;
+  padding: 0 25px;
   font-family: HiraginoSans-W2;
 color: #ECFDFE;
 letter-spacing: 0;
@@ -55,7 +56,7 @@ margin-top: 32px;
 .explore {
   border: 1px solid #46B8BC;
   width: 137px;
-  height: 42px;
+  height: 46px;
   background-color: transparent;
   font-family: HiraginoSans-W3;
 color: #46B8BC;
@@ -81,6 +82,12 @@ align-self: center;
   bottom: 0;
   right: 0;
   margin-bottom: 40px;
+  width: 50px;
+}
+
+.menu-icon img {
+  width: 50px;
+  height: 50px;
 }
 
 svg:hover {

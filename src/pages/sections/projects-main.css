@@ -12,8 +12,8 @@
 }
 
 .ProjectsMain .project-description {
-  font-family: HiraginoSans-W2;
-color: #132242;
+  font-family: HiraginoSans-W3;
+color: black;
 letter-spacing: 0;
 text-align: center;
 line-height: 20px;
@@ -43,9 +43,8 @@ line-height: 20px;
 
 .medias {
   margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .medias img {
