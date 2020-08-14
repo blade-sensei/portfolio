@@ -18,6 +18,7 @@ return (
     </h3>
     
     <div className='project'>
+      <div className='left'>
       <div className='project-description'>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
@@ -27,6 +28,8 @@ return (
         <img href='https://roadtoninja-f5ad8.firebaseapp.com' taget='_blank' className='btn' src='/content/github.svg'/>
         </div>
       </div>
+      </div>
+      <div className='right'>
       <div className='medias'>
         <img src='/content/rtn.gif' alt='gif'/>
       </div>
@@ -37,9 +40,11 @@ return (
         <span>#tag</span>
         <span>#tag</span>
       </div>
+      </div>
     </div>
 
     <div className='project'>
+      <div className='right'> 
       <div className='project-description'>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
@@ -47,17 +52,21 @@ return (
         <img src='/content/link-pink.svg'/>
         <img src='/content/github.svg'/>
       </div>
-      <div className='medias'>
-        <img src='/content/review.gif' alt='gif'/>
       </div>
-      <div className='tags'>
-        <span>#tag</span>
-        <span>#tag</span>
-        <span>#tag</span>
+      <div className="left">
+        <div className='medias'>
+          <img src='/content/review.gif' alt='gif'/>
+        </div>
+        <div className='tags'>
+          <span>#tag</span>
+          <span>#tag</span>
+          <span>#tag</span>
+        </div>
       </div>
     </div>
 
     <div className='project'>
+    <div className="left">
       <div className='project-description'>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
@@ -67,6 +76,8 @@ return (
           <img src='/content/github.svg'/>
         </div> 
       </div>
+      </div>
+      <div className='right'>
       <div className='medias'>
         <img src='content/rtn.gif' alt='gif'/>
       </div>
@@ -74,6 +85,7 @@ return (
         <span>#tag</span>
         <span>#tag</span>
         <span>#tag</span>
+      </div>
       </div>
     </div>
   </div>

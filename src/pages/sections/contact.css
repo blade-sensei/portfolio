@@ -24,7 +24,7 @@
 .go-to {
   margin-top: 50px;
   background-color: rgba(236, 4, 104, 0.82);
-  color: white;
+  color: black;
   width: 116px;
   height: 58px;
   text-align: center;
@@ -42,7 +42,8 @@
 
 .go-to:hover {
   cursor: pointer;
-  background: rgba(240,41,127,0.82);
+  background: #105e74;
+  color: white;
 }
 
 .Contact .links {
@@ -66,4 +67,21 @@
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  .Contact {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .Contact {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
 }

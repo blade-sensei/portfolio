@@ -54,6 +54,13 @@ const Hero = () => {
               </span>
         </div>
       </div> 
+      <div className='menu-header'>
+          <a href='#about'> About </a>
+          <a href='#main-projects'> Work</a>
+          <a href='#testimonials'> References </a>
+              <a href='#contact'> Contact </a>
+          
+        </div>
       <h2 className='hero-title'
       { ...configAOS }
        >Coyla</h2>

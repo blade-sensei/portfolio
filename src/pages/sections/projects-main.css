@@ -73,3 +73,54 @@ line-height: 20px;
 .project-description {
   padding: 0 25px;
 }
+
+
+@media only screen and (min-width: 992px) {
+
+  .ProjectsMain {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+  .ProjectsMain .links {
+    justify-content: flex-start;
+    margin-top: 40px;
+  }
+
+  .ProjectsMain .project-description {
+    margin-top: 30px;
+    padding: 0;
+    text-align: left;
+  }
+
+  .ProjectsMain h3 {
+    margin-bottom: 100px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .right {
+    flex-basis: 50%;
+    order: 0;
+    padding-right: 40px;
+  }
+
+  .left {
+    flex-basis: 50%;
+    order: 1;
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .ProjectsMain {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+
+}

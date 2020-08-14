@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 29px;
-  height: 100vh;
   margin-bottom: 150px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .Hero a {
@@ -58,8 +59,7 @@
 }
 
 .hero-title {
-  padding: 0 25px;
-margin-top: 37%;
+margin-top: 300px;
 font-family: Futura-Bold;
 font-size: 3.2em;
 color: #9FEDEA;
@@ -67,23 +67,21 @@ letter-spacing: 0;
 }
 
 .hero-subtitle {
-  padding: 0 25px;
   font-family: Futura-Bold;
-  font-size: 2.4em;
+  font-size: 3.0em;
   color: #F2FDFE;
   letter-spacing: 0;
-  line-height: 47px;
+  line-height: 1.2;
   font-weight: bold;
   
 }
 
 .hero-details {
-  padding: 0 25px;
   font-family: HiraginoSans-W2;
 color: #ECFDFE;
 letter-spacing: 0;
-line-height: 23px;
 margin-top: 32px;
+font-size: 1.1em;
 }
 
 .explore {
@@ -127,4 +125,85 @@ align-self: center;
 
 .menu-icon svg {
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+  .hero-title {
+    margin-top: 200px;
+    font-size: 3.9em;
+  }
+
+  .Hero {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .hero-subtitle {
+    font-size: 3.5em;
+    
+  }
+
+  .hero-details {
+    width: 60%;
+  }
+  
+
+}
+
+@media only screen and (max-width: 991px) {
+  .Hero .menu-header {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .Hero {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+  .Hero .menu-header {
+    display: inline-grid;
+    grid-template-columns: 18% 1fr 1fr 1fr;
+    width: 60%;
+    align-self: flex-end;
+
+  }
+
+  .Hero a {
+    font-size: 1.2em;
+  }
+
+  .Hero .menu-icon {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .Hero {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  .hero-subtitle {
+    width: 80%;
+  }
+
+  .hero-details {
+    width: 50%;
+  }
+
+  .Hero .menu-header {
+    display: inline-grid;
+    grid-template-columns: 14% 1fr 1fr 1fr;
+    width: 60%;
+    align-self: flex-end;
+
+  }
+
 }

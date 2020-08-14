@@ -15,7 +15,7 @@ const Testimonials = () => {
   <div className='Testimonials' id='testimonials'>
     <h3 className='section-title' {...configAOS}>Few words from</h3>
 
-
+    <div className='testimonials'>
     <div className='testimonial' {...configAOS}>
       <div className='circle'>
       </div>
@@ -56,7 +56,7 @@ const Testimonials = () => {
         Fullstack developer @ BNP ParibasDev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
         </div>
     </div>
-    
+    </div>
   </div>
 )
   }

@@ -61,3 +61,19 @@
   display: flex;
   margin-bottom: 20px
 }
+
+@media only screen and (min-width: 992px) {
+
+  .ProjectsSecondary {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .ProjectsSecondary {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
