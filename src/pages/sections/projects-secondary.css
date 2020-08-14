@@ -12,7 +12,7 @@
 .projects {
   display: grid;
   row-gap: 22px;
-  margin: 0 20px;
+  margin: 0 25px;
 }
 
 .ProjectsSecondary .project-description {
@@ -37,7 +37,7 @@
   display: inline-grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
-  padding: 0 45px;
+  padding: 0 25px;
   padding-bottom: 10px;
 }
 

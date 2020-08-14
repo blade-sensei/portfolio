@@ -43,8 +43,8 @@ line-height: 20px;
 
 .medias {
   margin-top: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .medias img {
@@ -70,5 +70,5 @@ line-height: 20px;
 }
 
 .project-description {
-  padding: 0 42px;
+  padding: 0 25px;
 }

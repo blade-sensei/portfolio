@@ -34,10 +34,12 @@ const Hero = () => {
        <div className='modal' style={ getModalDisplay() }> 
         <div className='modal-body'>
           <a href=''> About </a>
+          <hr style={{border: "none"}}/>
               <a href=''> Work </a>
+              
               <a href=''> References </a>
               <a href=''> Contact </a>
-              <span onClick={handleClose}>
+              <span className='menu-close' onClick={handleClose}>
                 <CloseMenuSvg/>
               </span>
         </div>
