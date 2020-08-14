@@ -26,6 +26,7 @@ return (
             <span>#tag</span>
             <span>#tag</span>
             <span>#angular</span>
+            <span>#angular</span>
             
           </div>
 
