@@ -29,16 +29,17 @@
 .ProjectsSecondary .project {
   background: #15274a;
   box-shadow: rgba(0, 0, 0, 0.12) 0.3125rem 0.3125rem 0.9375rem;
-
+  display: flex;
 
 }
 
 .ProjectsSecondary .tags {
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
   column-gap: 20px;
   padding: 0 25px;
   padding-bottom: 10px;
+  display: flex;
+  
 }
 
 .ProjectsSecondary .tags > span {
@@ -47,6 +48,7 @@
   color: #9FEDEA;
   letter-spacing: 0;
   text-align: justify;
+  margin-right: 15px;
 }
 
 .ProjectsSecondary .links {
@@ -59,7 +61,8 @@
 
 .ProjectsSecondary .project-card-body {
   display: flex;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  flex-direction: column;
 }
 
 @media only screen and (min-width: 992px) {

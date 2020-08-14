@@ -22,89 +22,101 @@ return (
           Fullstack developer BNP Paribas Dev Backoffice applications
           Fullstack JS (Angular + NodeJS Framework)
           </span>
-          <div className="links">
+          <div className="tags">
+            <span>#tag</span>
+            <span>#tag</span>
+            <span>#angular</span>
+            
+          </div>
+
+        </div>
+        <div className="links">
           <img className='btn' src='/content/link-dark.svg'/>
           <img className='btn' src='/content/github-dark.svg'/>
         </div>
-        </div>
-        <div className="tags">
-          <span>#tag</span>
-          <span>#tag</span>
-          <span>#tag</span>
-        </div>
+        
       </div>
 
-      <div className="project">
+      <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
           Fullstack developer BNP Paribas Dev Backoffice applications
           Fullstack JS (Angular + NodeJS Framework)
           </span>
-          <div className="links">
+          <div className="tags">
+            <span>#tag</span>
+            <span>#tag</span>
+            <span>#tag</span>
+          </div>
+
+        </div>
+        <div className="links">
           <img className='btn' src='/content/link-dark.svg'/>
           <img className='btn' src='/content/github-dark.svg'/>
         </div>
-        </div>
-        <div className="tags">
-          <span>#tag</span>
-          <span>#tag</span>
-          <span>#tag</span>
-        </div>
+        
       </div>
 
 
-      <div className="project">
+      <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
           Fullstack developer BNP Paribas Dev Backoffice applications
           Fullstack JS (Angular + NodeJS Framework)
           </span>
-          <div className="links">
+          <div className="tags">
+            <span>#tag</span>
+            <span>#tag</span>
+            <span>#tag</span>
+          </div>
+
+        </div>
+        <div className="links">
           <img className='btn' src='/content/link-dark.svg'/>
           <img className='btn' src='/content/github-dark.svg'/>
         </div>
-        </div>
-        <div className="tags">
-          <span>#tag</span>
-          <span>#tag</span>
-          <span>#tag</span>
-        </div>
+        
       </div>
 
-      <div className="project">
+      <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
           Fullstack developer BNP Paribas Dev Backoffice applications
           Fullstack JS (Angular + NodeJS Framework)
           </span>
-          <div className="links">
+          <div className="tags">
+            <span>#tag</span>
+            <span>#tag</span>
+            <span>#tag</span>
+          </div>
+
+        </div>
+        <div className="links">
           <img className='btn' src='/content/link-dark.svg'/>
           <img className='btn' src='/content/github-dark.svg'/>
         </div>
-        </div>
-        <div className="tags">
-          <span>#tag</span>
-          <span>#tag</span>
-          <span>#tag</span>
-        </div>
+        
       </div>
 
-      <div className="project">
+
+      <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
           Fullstack developer BNP Paribas Dev Backoffice applications
           Fullstack JS (Angular + NodeJS Framework)
           </span>
-          <div className="links">
+          <div className="tags">
+            <span>#tag</span>
+            <span>#tag</span>
+            <span>#tag</span>
+          </div>
+
+        </div>
+        <div className="links">
           <img className='btn' src='/content/link-dark.svg'/>
           <img className='btn' src='/content/github-dark.svg'/>
         </div>
-        </div>
-        <div className="tags">
-          <span>#tag</span>
-          <span>#tag</span>
-          <span>#tag</span>
-        </div>
+        
       </div>
     </div>
   </div>
