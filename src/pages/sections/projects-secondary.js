@@ -1,11 +1,21 @@
 import React from "react"
 import "./projects-secondary.css"
 
-const ProjectSecondary = () => (
+const ProjectSecondary = () => {
+  const configAOS = {
+    'data-aos': "fade-zoom-in",
+    'data-aos-offset':"0",
+    'data-aos-delay':"300",
+    'data-aos-duration':"300",
+    'data-aos-mirror':"true",
+    'data-aos-easing':"ease-in-sine"
+
+  }
+return (
   <div className="ProjectsSecondary">
-    <h3 className="section-title "> Interesting works </h3>
+    <h3 className="section-title" {...configAOS}> Interesting works </h3>
     <div className="projects">
-      <div className="project">
+      <div className="project" {...configAOS} >
         <div className="project-card-body">
           <span className='project-description'>
           Fullstack developer BNP Paribas Dev Backoffice applications
@@ -98,5 +108,5 @@ const ProjectSecondary = () => (
     </div>
   </div>
 )
-
+}
 export default ProjectSecondary

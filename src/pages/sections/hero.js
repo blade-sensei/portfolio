@@ -29,6 +29,13 @@ const Hero = () => {
     return 
   }
 
+  const configAOS = {
+    'data-aos': "fade-up",
+    'data-aos-offset':"100",
+    'data-aos-delay':"10",
+    'data-aos-duration':"1000",
+  }
+
   return (
     <div className='Hero'>
        <div className='modal' style={ getModalDisplay() }> 
@@ -44,8 +51,10 @@ const Hero = () => {
               </span>
         </div>
       </div> 
-      <h2 className='hero-title'>Coyla</h2>
-      <p className='hero-subtitle'> Creating web things with love </p>
+      <h2 className='hero-title'
+      { ...configAOS }
+       >Coyla</h2>
+      <p className='hero-subtitle' { ...configAOS }> Creating web things with love </p>
       <p className='hero-details'>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
       <button className='action action-dark explore'>Explore</button>
       <span className='action menu-icon' onClick={handleShow}>

@@ -1,17 +1,27 @@
 import React from "react"
 import './contact.css'
 
-const Contact = () => (
+const Contact = () => {
+  const configAOS = {
+    'data-aos': "fade-zoom-in",
+    'data-aos-offset':"0",
+    'data-aos-delay':"300",
+    'data-aos-duration':"300",
+    'data-aos-mirror':"true",
+    'data-aos-easing':"ease-in-sine"
+
+  }
+return (
   <div className='Contact'>
-    <span className='caption'>So let’s talk</span>
-    <div className='description'>
+    <span className='caption' {...configAOS}>So let’s talk</span>
+    <div className='description'  {...configAOS}>
     Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
     </div>
-    <a className='go-to'>
+    <a className='go-to'  {...configAOS}>
       Hello !
     </a>
 
-    <div className='links'>
+    <div className='links'  {...configAOS}>
 
       <div className='link-icons'>
       <a href=''> 
@@ -33,5 +43,5 @@ const Contact = () => (
     </div>
   </div>
 )
- 
+}
 export default Contact

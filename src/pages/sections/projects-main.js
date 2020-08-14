@@ -1,9 +1,19 @@
 import React from "react"
 import './projects-main.css'
 
-const ProjectsMain = () => (
+const ProjectsMain = () => {
+  const configAOS = {
+    'data-aos': "fade-zoom-in",
+    'data-aos-offset':"0",
+    'data-aos-delay':"300",
+    'data-aos-duration':"300",
+    'data-aos-mirror':"true",
+    'data-aos-easing':"ease-in-sine"
+
+  }
+return (
   <div className='ProjectsMain'>
-    <h3 className='subtitle'>
+    <h3 className='subtitle' {...configAOS}>
       Always building
     </h3>
     
@@ -11,7 +21,7 @@ const ProjectsMain = () => (
       <div className='project-description'>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
-      <div className='links'>
+      <div className='links' {...configAOS} >
       <div className='link-icons'>
         <img href='https://github.com/blade-sensei/rtn-front' className='btn' src='/content/link-pink.svg'/>
         <img href='https://roadtoninja-f5ad8.firebaseapp.com' taget='_blank' className='btn' src='/content/github.svg'/>
@@ -20,7 +30,7 @@ const ProjectsMain = () => (
       <div className='medias'>
         <img src='/content/rtn.gif' alt='gif'/>
       </div>
-      <div className='tags'>
+      <div className='tags' {...configAOS} >
         <span>#tag</span>
         <span>#tag</span>
         <span>#tag</span>
@@ -67,6 +77,6 @@ const ProjectsMain = () => (
       </div>
     </div>
   </div>
-)
- 
+ )
+}
 export default ProjectsMain
