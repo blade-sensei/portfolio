@@ -49,7 +49,7 @@ const Hero = () => {
       <p className='hero-details'>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
       <button className='action action-dark explore'>Explore</button>
       <span className='action menu-icon' onClick={handleShow}>
-        <img src='/content/burger.svg'/>
+          <BurgerMenuSvg/>
       </span>
     </div>
   );

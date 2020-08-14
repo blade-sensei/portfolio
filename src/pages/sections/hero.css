@@ -16,7 +16,7 @@
   margin-top: 40px;
 }
 
-a:first-child {
+.Hero a:first-child {
   border-bottom: 2px solid #F02992;
 }
 
@@ -49,6 +49,12 @@ a:first-child {
 
 .menu-close {
   margin-top: 130px;
+  
+}
+
+.menu-close svg {
+  width: 50px;
+  height: 50px;
 }
 
 .hero-title {
@@ -110,14 +116,15 @@ align-self: center;
   right: 0;
   margin-bottom: 40px;
   width: 50px;
+  outline: none;
 }
 
-.menu-icon img {
+.menu-icon svg {
   width: 50px;
   height: 50px;
 }
 
 
-.menu-icon img {
+.menu-icon svg {
   cursor: pointer;
 }
