@@ -12,7 +12,7 @@ const ProjectsMain = () => {
 
   }
 return (
-  <div className='ProjectsMain'>
+  <div className='ProjectsMain' id="main-projects">
     <h3 className='subtitle' {...configAOS}>
       Always building
     </h3>

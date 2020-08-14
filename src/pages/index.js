@@ -3,7 +3,6 @@ import './index.css';
 import LandingPage from './landing-page';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init();
 
 const IndexPage = () => {
 

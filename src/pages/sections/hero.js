@@ -5,6 +5,16 @@ import './hero.css';
 
 
 const Hero = () => {
+  const configAOS = {
+    'data-aos': "fade-zoom-in",
+    'data-aos-offset':"0",
+    'data-aos-delay':"300",
+    'data-aos-duration':"300",
+    'data-aos-mirror':"true",
+    'data-aos-easing':"ease-in-sine"
+
+  }
+  
   const [showModal, setShowModal] = useState(false);
 
   const handleClose = () => {
@@ -29,23 +39,16 @@ const Hero = () => {
     return 
   }
 
-  const configAOS = {
-    'data-aos': "fade-up",
-    'data-aos-offset':"100",
-    'data-aos-delay':"10",
-    'data-aos-duration':"1000",
-  }
 
   return (
-    <div className='Hero'>
-       <div className='modal' style={ getModalDisplay() }> 
+    <div className='Hero' id="about">
+       <div className='modal' style={ getModalDisplay() }  onClick={handleClose}> 
         <div className='modal-body'>
-          <a href=''> About </a>
+          <a href='#about'> About </a>
           <hr style={{border: "none"}}/>
-              <a href=''> Work </a>
-              
-              <a href=''> References </a>
-              <a href=''> Contact </a>
+              <a href='#main-projects'> Work</a>
+              <a href='#testimonials'> References </a>
+              <a href='#contact'> Contact </a>
               <span className='menu-close' onClick={handleClose}>
                 <CloseMenuSvg/>
               </span>
@@ -55,9 +58,9 @@ const Hero = () => {
       { ...configAOS }
        >Coyla</h2>
       <p className='hero-subtitle' { ...configAOS }> Creating web things with love </p>
-      <p className='hero-details'>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
-      <button className='action action-dark explore'>Explore</button>
-      <span className='action menu-icon' onClick={handleShow}>
+      <p className='hero-details' {...configAOS}>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
+      <button className='action action-dark explore' { ...configAOS }>Explore</button>
+      <span className='action menu-icon' { ...configAOS } onClick={handleShow}>
           <BurgerMenuSvg/>
       </span>
     </div>

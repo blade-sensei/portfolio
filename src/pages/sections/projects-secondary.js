@@ -10,12 +10,13 @@ const ProjectSecondary = () => {
     'data-aos-mirror':"true",
     'data-aos-easing':"ease-in-sine"
 
-  }
+  };
+  
 return (
   <div className="ProjectsSecondary">
     <h3 className="section-title" {...configAOS}> Interesting works </h3>
     <div className="projects">
-      <div className="project" {...configAOS} >
+      <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
           Fullstack developer BNP Paribas Dev Backoffice applications

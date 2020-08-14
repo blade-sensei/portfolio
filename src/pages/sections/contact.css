@@ -2,6 +2,7 @@
   background-color: #ECFDFE;
   display: flex;
   flex-direction: column;
+  padding-top: 100px;
 }
 
 .Contact .caption {

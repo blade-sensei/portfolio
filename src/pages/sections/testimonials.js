@@ -12,7 +12,7 @@ const Testimonials = () => {
 
   }
   return (
-  <div className='Testimonials'>
+  <div className='Testimonials' id='testimonials'>
     <h3 className='section-title' {...configAOS}>Few words from</h3>
 
 
