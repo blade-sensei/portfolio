@@ -17,7 +17,7 @@ return (
       Always building
     </h3>
     
-    <div className='project'>
+    <div className='project'  {...configAOS}>
       <div className='left'>
       <div className='project-description'>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
@@ -33,7 +33,7 @@ return (
       <div className='medias'>
         <img src='/content/rtn.gif' alt='gif'/>
       </div>
-      <div className='tags' {...configAOS} >
+      <div className='tags'>
         <span>#tag</span>
         <span>#tag</span>
         <span>#tag</span>
@@ -43,7 +43,7 @@ return (
       </div>
     </div>
 
-    <div className='project'>
+    <div className='project' {...configAOS}>
       <div className='right'> 
       <div className='project-description'>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
@@ -65,7 +65,7 @@ return (
       </div>
     </div>
 
-    <div className='project'>
+    <div className='project' {...configAOS}>
     <div className="left">
       <div className='project-description'>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)

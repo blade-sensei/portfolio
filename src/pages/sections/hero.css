@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 29px;
-  margin-bottom: 150px;
+  margin-bottom: 250px;
   padding-left: 25px;
   padding-right: 25px;
 }
 
-.Hero a {
+.menu-header a {
   color: #ECFDFE;
   text-decoration: none;
   font-family: Futura-Medium;
@@ -84,24 +84,29 @@ margin-top: 32px;
 font-size: 1.1em;
 }
 
-.explore {
-  border: 1px solid #46B8BC;
+.Hero .explore {
+  font-size: 1.2em;
+  border: 1px solid #21ECF3;
   width: 137px;
   height: 46px;
   background-color: transparent;
   font-family: HiraginoSans-W3;
-color: #46B8BC;
+color: #21ECF3;
 letter-spacing: 0;
 text-align: center;
-margin-top: 10%;
+margin-top: 20px;
 align-self: center;
+text-decoration: none;
+    line-height: 40px;
+    
+  
 }
 
 
 
 .explore:hover {
   border: 1px solid black;
-  background-color: #46B8BC;
+  background-color: #21ECF3;
   color: black;
 }
 
@@ -127,12 +132,25 @@ align-self: center;
   cursor: pointer;
 }
 
+
+
+@media only screen and (max-width: 767px) {
+  .Hero .menu-header {
+    display: none;
+  }
+}
+ 
+
 @media only screen and (min-width: 768px) {
 
 
   .hero-title {
-    margin-top: 200px;
+    margin-top: 100px;
     font-size: 3.9em;
+  }
+
+  .menu-icon {
+    margin-top: 0px;
   }
 
   .Hero {
@@ -152,12 +170,6 @@ align-self: center;
 
 }
 
-@media only screen and (max-width: 991px) {
-  .Hero .menu-header {
-    display: none;
-  }
-}
-
 @media only screen and (min-width: 992px) {
 
   .Hero {
@@ -173,7 +185,7 @@ align-self: center;
 
   }
 
-  .Hero a {
+  .menu-header a {
     font-size: 1.2em;
   }
 

@@ -30,13 +30,12 @@
   background: #15274a;
   box-shadow: rgba(0, 0, 0, 0.12) 0.3125rem 0.3125rem 0.9375rem;
   display: flex;
-
+  padding: 0 25px;
 }
 
 .ProjectsSecondary .tags {
   margin-top: 30px;
   column-gap: 20px;
-  padding: 0 25px;
   padding-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -55,14 +54,16 @@
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  flex-basis: 30%;
-  margin-right: 15px;
+  flex-grow: 2;
+  align-items: flex-end;
+
 }
 
 .ProjectsSecondary .project-card-body {
   display: flex;
   margin-bottom: 20px;
   flex-direction: column;
+  width: 80%;
 }
 
 @media only screen and (min-width: 992px) {
@@ -71,6 +72,34 @@
     padding-left: 130px;
     padding-right: 130px;
   }
+
+  .ProjectsSecondary .project-card-body {
+    flex-direction: row;
+  }
+
+  .ProjectsSecondary .tags {
+    margin-top: 20px;
+  }
+
+  .ProjectsSecondary .project-description {
+    flex: 1 1 0px;
+    margin-right: 30px
+  }
+
+  .ProjectsSecondary .tags {
+    flex: 1 1 0px
+  }
+
+  .ProjectsSecondary .links {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .links img {
+    margin-left: 20px;
+  }
+
 
 }
 

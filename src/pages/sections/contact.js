@@ -18,7 +18,7 @@ return (
     Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
     </div>
     <a className='go-to'  {...configAOS}>
-      Hello !
+      Hello ! 👋
     </a>
 
     <div className='links'  {...configAOS}>

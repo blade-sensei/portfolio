@@ -6,10 +6,17 @@ import './hero.css';
 
 const Hero = () => {
   const configAOS = {
+    'data-aos': "fade-up",
+    'data-aos-duration':"1000",
+    'data-aos-mirror':"true",
+
+  }
+
+  const configAOSZoom = {
     'data-aos': "fade-zoom-in",
     'data-aos-offset':"0",
     'data-aos-delay':"300",
-    'data-aos-duration':"300",
+    'data-aos-duration':"500",
     'data-aos-mirror':"true",
     'data-aos-easing':"ease-in-sine"
 
@@ -62,11 +69,11 @@ const Hero = () => {
           
         </div>
       <h2 className='hero-title'
-      { ...configAOS }
+      { ...configAOSZoom }
        >Coyla</h2>
-      <p className='hero-subtitle' { ...configAOS }> Creating web things with love </p>
-      <p className='hero-details' {...configAOS}>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
-      <button className='action action-dark explore' { ...configAOS }>Explore</button>
+      <p className='hero-subtitle' { ...configAOSZoom }> Creating web things with love </p>
+      <p className='hero-details' {...configAOSZoom }>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
+      <a href='#main-projects' className='action action-dark explore' { ...configAOS }>Explore</a>
       <span className='action menu-icon' { ...configAOS } onClick={handleShow}>
           <BurgerMenuSvg/>
       </span>
