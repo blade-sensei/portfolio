@@ -30,7 +30,7 @@ const Testimonials = () => {
 
     </div>
 
-    <div className='testimonial'>
+    <div className='testimonial' {...configAOS}>
 
     <div className='circle'>
       </div>
@@ -44,7 +44,7 @@ const Testimonials = () => {
         </div>
     </div>
 
-    <div className='testimonial'>
+    <div className='testimonial' {...configAOS}>
     <div className='circle'>
       </div>
         <img className='avatar' src='/content/person.png' alt='' />
