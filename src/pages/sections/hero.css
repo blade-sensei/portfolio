@@ -3,11 +3,9 @@
   flex-direction: column;
   margin-bottom: 29px;
   margin-bottom: 250px;
-  padding-left: 25px;
-  padding-right: 25px;
 }
 
-.menu-header a {
+a {
   color: #ECFDFE;
   text-decoration: none;
   font-family: Futura-Medium;
@@ -41,7 +39,6 @@
 
 .modal-body {
   width: 100%;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,11 +56,13 @@
 }
 
 .hero-title {
-margin-top: 300px;
+margin-top: 200px;
 font-family: Futura-Bold;
 font-size: 3.2em;
 color: #9FEDEA;
 letter-spacing: 0;
+padding-left: 25px;
+  padding-right: 25px;
 }
 
 .hero-subtitle {
@@ -73,6 +72,8 @@ letter-spacing: 0;
   letter-spacing: 0;
   line-height: 1.2;
   font-weight: bold;
+  padding-left: 25px;
+  padding-right: 25px;
   
 }
 
@@ -82,6 +83,8 @@ color: #ECFDFE;
 letter-spacing: 0;
 margin-top: 32px;
 font-size: 1.1em;
+padding-left: 25px;
+  padding-right: 25px;
 }
 
 .Hero .explore {
@@ -94,7 +97,7 @@ font-size: 1.1em;
 color: #21ECF3;
 letter-spacing: 0;
 text-align: center;
-margin-top: 20px;
+margin-top: 50px;
 align-self: center;
 text-decoration: none;
     line-height: 40px;
@@ -105,8 +108,8 @@ text-decoration: none;
 
 
 .explore:hover {
-  border: 1px solid black;
-  background-color: #21ECF3;
+  border: 1px solid #132242;
+  background-color: rgb(133 230 225);
   color: black;
 }
 
@@ -185,7 +188,7 @@ text-decoration: none;
 
   }
 
-  .menu-header a {
+  .Hero a {
     font-size: 1.2em;
   }
 

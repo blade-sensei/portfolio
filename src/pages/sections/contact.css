@@ -2,7 +2,7 @@
   background-color: #ECFDFE;
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .Contact .caption {
@@ -42,8 +42,8 @@
 
 .go-to:hover {
   cursor: pointer;
-  background: #105e74;
-  color: white;
+  background-color: rgb(133 230 225);
+  color: #132242;
 }
 
 .Contact .links {

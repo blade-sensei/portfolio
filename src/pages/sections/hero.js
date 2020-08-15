@@ -73,7 +73,7 @@ const Hero = () => {
        >Coyla</h2>
       <p className='hero-subtitle' { ...configAOSZoom }> Creating web things with love </p>
       <p className='hero-details' {...configAOSZoom }>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
-      <a href='#main-projects' className='action action-dark explore' { ...configAOS }>Explore</a>
+      <a href='#main-projects' className='action action-dark explore'>Explore</a>
       <span className='action menu-icon' { ...configAOS } onClick={handleShow}>
           <BurgerMenuSvg/>
       </span>

@@ -6,7 +6,7 @@ const ProjectsMain = () => {
     'data-aos': "fade-zoom-in",
     'data-aos-offset':"0",
     'data-aos-delay':"300",
-    'data-aos-duration':"300",
+    'data-aos-duration':"200",
     'data-aos-mirror':"true",
     'data-aos-easing':"ease-in-sine"
 
