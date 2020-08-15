@@ -17,7 +17,7 @@ return (
     <div className='description'  {...configAOS}>
     Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
     </div>
-    <a className='go-to'  {...configAOS}>
+    <a className='go-to' href='https://www.linkedin.com/in/juan-carlos-coyla' {...configAOS}>
       Hello ! 👋
     </a>
 
