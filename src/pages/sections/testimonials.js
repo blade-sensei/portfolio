@@ -6,14 +6,14 @@ const Testimonials = () => {
     'data-aos': "fade-zoom-in",
     'data-aos-offset':"0",
     'data-aos-delay':"300",
-    'data-aos-duration':"300",
+    'data-aos-duration':"200",
     'data-aos-mirror':"true",
     'data-aos-easing':"ease-in-sine"
 
   }
   return (
   <div className='Testimonials' id='testimonials'>
-    <h3 className='section-title' {...configAOS}>Few words from</h3>
+    <h3 className='section-title'>Few words from</h3>
 
     <div className='testimonials'>
     <div className='testimonial' {...configAOS}>
