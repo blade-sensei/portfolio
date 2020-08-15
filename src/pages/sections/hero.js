@@ -52,7 +52,6 @@ const Hero = () => {
        <div className='modal' style={ getModalDisplay() }  onClick={handleClose}> 
         <div className='modal-body'>
           <a href='#about'> About </a>
-          <hr style={{border: "none"}}/>
               <a href='#main-projects'> Work</a>
               <a href='#testimonials'> References </a>
               <a href='#contact'> Contact </a>

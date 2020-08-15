@@ -5,7 +5,7 @@ const ProjectsMain = () => {
   const configAOS = {
     'data-aos': "fade-zoom-in",
     'data-aos-offset':"0",
-    'data-aos-delay':"300",
+    'data-aos-delay':"200",
     'data-aos-duration':"200",
     'data-aos-mirror':"true",
     'data-aos-easing':"ease-in-sine"
@@ -13,7 +13,7 @@ const ProjectsMain = () => {
   }
 return (
   <div className='ProjectsMain' id="main-projects">
-    <h3 className='subtitle' {...configAOS}>
+    <h3 className='subtitle'>
       Always building
     </h3>
     
@@ -22,7 +22,7 @@ return (
       <div className='project-description'>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
-      <div className='links' {...configAOS} >
+      <div className='links'>
       <div className='link-icons'>
         <img href='https://github.com/blade-sensei/rtn-front' className='btn' src='/content/link-pink.svg'/>
         <img href='https://roadtoninja-f5ad8.firebaseapp.com' taget='_blank' className='btn' src='/content/github.svg'/>
@@ -48,9 +48,12 @@ return (
       <div className='project-description'>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
+      
       <div className='links'>
-        <img src='/content/link-pink.svg'/>
-        <img src='/content/github.svg'/>
+      <div className='link-icons'>
+        <img href='https://github.com/blade-sensei/rtn-front' className='btn' src='/content/link-pink.svg'/>
+        <img href='https://roadtoninja-f5ad8.firebaseapp.com' taget='_blank' className='btn' src='/content/github.svg'/>
+      </div>
       </div>
       </div>
       <div className="left">

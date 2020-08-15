@@ -13,7 +13,7 @@ const Contact = () => {
   }
 return (
   <div className='Contact' id='contact'>
-    <span className='caption' {...configAOS}>So let’s talk</span>
+    <span className='caption'>So let’s talk</span>
     <div className='description'  {...configAOS}>
     Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
     </div>

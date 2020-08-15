@@ -146,6 +146,9 @@ text-decoration: none;
 
 @media only screen and (min-width: 768px) {
 
+  .Hero .menu-header {
+    display: none;
+  }
 
   .hero-title {
     margin-top: 100px;
@@ -156,19 +159,24 @@ text-decoration: none;
     margin-top: 0px;
   }
 
-  .Hero {
+  .hero-title {
     padding-left: 100px;
     padding-right: 100px;
   }
 
   .hero-subtitle {
     font-size: 3.5em;
+    padding-left: 100px;
+    padding-right: 100px;
     
   }
 
   .hero-details {
     width: 60%;
+    padding-left: 100px;
+    padding-right: 100px;
   }
+
   
 
 }
@@ -181,15 +189,16 @@ text-decoration: none;
   }
 
   .Hero .menu-header {
-    display: inline-grid;
-    grid-template-columns: 18% 1fr 1fr 1fr;
-    width: 60%;
+    display: flex;
     align-self: flex-end;
-
   }
 
   .Hero a {
     font-size: 1.2em;
+  }
+
+  .menu-header a {
+    margin-left: 15px;
   }
 
   .Hero .menu-icon {
@@ -213,12 +222,8 @@ text-decoration: none;
     width: 50%;
   }
 
-  .Hero .menu-header {
-    display: inline-grid;
-    grid-template-columns: 14% 1fr 1fr 1fr;
-    width: 60%;
-    align-self: flex-end;
-
+  .menu-header a {
+    margin-left: 25px;
   }
 
 }
