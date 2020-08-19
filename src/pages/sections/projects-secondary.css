@@ -50,12 +50,22 @@
   margin-right: 12px;
 }
 
+.empty {
+  color: #f02991
+}
+
 .ProjectsSecondary .links {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   flex-grow: 2;
   align-items: flex-end;
+
+}
+
+.ProjectsSecondary a {
+  text-decoration: none;
+  color: #9FEDEA;
 
 }
 

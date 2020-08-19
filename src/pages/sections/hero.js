@@ -67,10 +67,18 @@ const Hero = () => {
               <a href='#contact'> Contact </a>
           
         </div>
-      <h2 className='hero-title'>Hi, I'm Jean Coyla</h2>
+      
+      <h2 className='hero-title'>Welcome !</h2>
       <p className='hero-subtitle'>I create web things with love</p>
-      <p className='hero-details'>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
-      <a href='#main-projects' className='action action-dark explore'>Explore</a>
+      <span className='hero-details'>
+        <p> I'm a <b>Jean Coyla</b>, a passionated and confirmed developer, I'm fond of the product quality 
+        so I'm always looking for new ways to improve my teammates work and also mine. Curently I'm <b>looking for </b>
+        my next adventure to create awesome things with awesome people 😁.  <br/><br/>
+
+        In my free time, I practice Wing Chun (do you know Ip Man ?), more often i train for an a upcoming Marathon and recently 
+        I'm learning to draw... Now I wish you a good visit !
+        </p>
+      </span>
       <span className='action menu-icon' onClick={handleShow}>
           <BurgerMenuSvg/>
       </span>

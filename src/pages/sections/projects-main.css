@@ -1,6 +1,6 @@
 .ProjectsMain {
   background-color: #ECFDFE;
-  padding-top: 150px;
+  padding-top: 130px;
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
@@ -19,6 +19,10 @@ letter-spacing: 0;
 text-align: center;
 line-height: 20px;
 padding: 0 25px;
+}
+
+.ProjectsMain b {
+  color: black;
 }
 
 .ProjectsMain .project {
