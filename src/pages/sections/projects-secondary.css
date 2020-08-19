@@ -36,7 +36,6 @@
 
 .ProjectsSecondary .tags {
   margin-top: 30px;
-  column-gap: 20px;
   padding-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -47,8 +46,8 @@
   font-size: 0.9em;
   color: #9FEDEA;
   letter-spacing: 0;
-  text-align: justify;
   line-height: 2;
+  margin-right: 12px;
 }
 
 .ProjectsSecondary .links {
@@ -85,10 +84,6 @@
   .ProjectsSecondary .project-description {
     flex: 1 1 0px;
     margin-right: 30px
-  }
-
-  .ProjectsSecondary .tags {
-    flex: 1 1 0px
   }
 
   .ProjectsSecondary .links {

@@ -14,7 +14,7 @@ const ProjectSecondary = () => {
   
 return (
   <div className="ProjectsSecondary">
-    <h3 className="section-title" {...configAOS}> Interesting works </h3>
+    <h3 className="section-title"> Interesting works </h3>
     <div className="projects">
       <div className="project" {...configAOS}>
         <div className="project-card-body">

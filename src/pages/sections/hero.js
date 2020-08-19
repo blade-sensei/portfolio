@@ -67,9 +67,8 @@ const Hero = () => {
               <a href='#contact'> Contact </a>
           
         </div>
-      <h2 className='hero-title'
-       >Coyla</h2>
-      <p className='hero-subtitle'> Creating web things with love </p>
+      <h2 className='hero-title'>Hi, I'm Jean Coyla</h2>
+      <p className='hero-subtitle'>I create web things with love</p>
       <p className='hero-details'>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
       <a href='#main-projects' className='action action-dark explore'>Explore</a>
       <span className='action menu-icon' onClick={handleShow}>
