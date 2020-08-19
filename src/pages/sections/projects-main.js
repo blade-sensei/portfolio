@@ -17,9 +17,9 @@ return (
       Always building
     </h3>
     
-    <div className='project'  {...configAOS}>
+    <div className='project'>
       <div className='left'>
-      <div className='project-description'>
+      <div className='project-description' {...configAOS}>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
       <div className='links'>
@@ -31,9 +31,9 @@ return (
       </div>
       <div className='right'>
       <div className='medias'>
-        <img src='/content/rtn.gif' alt='gif'/>
+        <img src='/content/rtn-gif.gif' alt='gif'/>
       </div>
-      <div className='tags'>
+      <div className='tags' {...configAOS}>
         <span>#tag</span>
         <span>#tag</span>
         <span>#tag</span>
@@ -43,9 +43,9 @@ return (
       </div>
     </div>
 
-    <div className='project' {...configAOS}>
+    <div className='project'>
       <div className='right'> 
-      <div className='project-description'>
+      <div className='project-description' {...configAOS}>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
       
@@ -58,9 +58,9 @@ return (
       </div>
       <div className="left">
         <div className='medias'>
-          <img src='/content/review.gif' alt='gif'/>
+          <img src='/content/github-review.gif' alt='gif'/>
         </div>
-        <div className='tags'>
+        <div className='tags' {...configAOS}>
           <span>#tag</span>
           <span>#tag</span>
           <span>#tag</span>
@@ -68,9 +68,9 @@ return (
       </div>
     </div>
 
-    <div className='project' {...configAOS}>
+    <div className='project'>
     <div className="left">
-      <div className='project-description'>
+      <div className='project-description'  {...configAOS}>
         Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
       </div>
       <div className='links'>
@@ -82,9 +82,9 @@ return (
       </div>
       <div className='right'>
       <div className='medias'>
-        <img src='content/rtn.gif' alt='gif'/>
+        <img src='content/rtn-api.gif' alt='gif'/>
       </div>
-      <div className='tags'>
+      <div className='tags' {...configAOS}>
         <span>#tag</span>
         <span>#tag</span>
         <span>#tag</span>

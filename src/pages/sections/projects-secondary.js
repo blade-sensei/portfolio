@@ -19,8 +19,7 @@ return (
       <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
-          Fullstack developer BNP Paribas Dev Backoffice applications
-          Fullstack JS (Angular + NodeJS Framework)
+          Build CLI JS to recude deployment delay
           </span>
           <div className="tags">
             <span>#tag</span>
@@ -41,8 +40,7 @@ return (
       <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
-          Fullstack developer BNP Paribas Dev Backoffice applications
-          Fullstack JS (Angular + NodeJS Framework)
+          Integrating web SSO to web app (internal) for BNP authentication policies
           </span>
           <div className="tags">
             <span>#tag</span>
@@ -62,8 +60,7 @@ return (
       <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
-          Fullstack developer BNP Paribas Dev Backoffice applications
-          Fullstack JS (Angular + NodeJS Framework)
+          Avoid messy Git history post
           </span>
           <div className="tags">
             <span>#tag</span>
@@ -82,8 +79,7 @@ return (
       <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
-          Fullstack developer BNP Paribas Dev Backoffice applications
-          Fullstack JS (Angular + NodeJS Framework)
+            Unit testing introduction
           </span>
           <div className="tags">
             <span>#tag</span>
@@ -103,8 +99,7 @@ return (
       <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
-          Fullstack developer BNP Paribas Dev Backoffice applications
-          Fullstack JS (Angular + NodeJS Framework)
+            Package extension for Mustache JS
           </span>
           <div className="tags">
             <span>#tag</span>
@@ -119,6 +114,26 @@ return (
         </div>
         
       </div>
+
+      <div className="project" {...configAOS}>
+        <div className="project-card-body">
+          <span className='project-description'>
+            Bug tracker, learning and futur projects board
+          </span>
+          <div className="tags">
+            <span>#tag</span>
+            <span>#tag</span>
+            <span>#tag</span>
+          </div>
+
+        </div>
+        <div className="links">
+          <img className='btn' src='/content/link-dark.svg'/>
+          <img className='btn' src='/content/github-dark.svg'/>
+        </div>
+        
+      </div>
+
     </div>
   </div>
 )

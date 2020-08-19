@@ -68,12 +68,11 @@ const Hero = () => {
           
         </div>
       <h2 className='hero-title'
-      { ...configAOSZoom }
        >Coyla</h2>
-      <p className='hero-subtitle' { ...configAOSZoom }> Creating web things with love </p>
-      <p className='hero-details' {...configAOSZoom }>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
+      <p className='hero-subtitle'> Creating web things with love </p>
+      <p className='hero-details'>Fullstack developer @ BNP Paribas Javascript developer (Angular, NodeJS) . Message me</p>
       <a href='#main-projects' className='action action-dark explore'>Explore</a>
-      <span className='action menu-icon' { ...configAOS } onClick={handleShow}>
+      <span className='action menu-icon' onClick={handleShow}>
           <BurgerMenuSvg/>
       </span>
     </div>
