@@ -19,7 +19,7 @@ return (
       <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
-          Reduced internal Digital Lab (BNP Paribas) deployments time from 10 to 2min by creating JavaScript CLI
+          Reduced internal deployments time (Digital Lab - BNP Paribas) from 10 to 2min by creating JavaScript CLI
           </span>
           <div className="tags">
             <span>#kubernetes</span>

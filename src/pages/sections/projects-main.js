@@ -91,7 +91,7 @@ return (
     <div className="left">
       <div className='project-description'  {...configAOS}>
       <h4>Node.js API: backend for project management app. </h4>
-      <p>Collaborate with a friend to teach how APIs works.</p>
+      <p>Teamwork with a friend to teach him how APIs works.</p>
         <p>Documented/swagger & covered by unit tests.</p>
         <p>Stack: Express, Heroku cloud & Atlas MongoDB to persist data.</p>
       </div>

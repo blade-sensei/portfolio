@@ -21,11 +21,12 @@ const Testimonials = () => {
       </div>
         <img className='avatar' src='/content/person.png' alt='' />
         <span className='person-information'>
-        Fullstack developer @ BNP Paribas
+        Benjamin Marchand  at BNP Paribas - Digital Lab
         </span>
-        <span className='date-from'> Lead Tech & Manager </span>
+        <span className='date-from'>was my Lead Tech & Manager</span>
         <div className='message'>
-        " I had the pleasure of working with Juan Carlos, I really appreciated his ability to learn and handle new technical concepts. He is perfectly autonomous... I had the opportunity to challenge him on chatbots, and he impressed me every time! Lots of professionalism, seriousness and a very pleasant personality. Thank you Juan Carlos for the excellent work within the LAB! "
+        <p><span className='quote'>"</span>I had the pleasure of working with Juan Carlos... He is autonomous and knows how to take charge of projects. </p>
+        <p>I challenge him on chatbots, and he impressed me every time! Lots of professionalism, seriousness and a very pleasant personality. </p> <p>Thank you Juan Carlos for the excellent work within the LAB!  </p>
         </div>
 
     </div>
@@ -36,14 +37,14 @@ const Testimonials = () => {
       </div>
         <img className='avatar' src='/content/person.png' alt='' />
         <span className='person-information'>
-        Fullstack developer @ BNP Paribas
+        Thomas Vauzelle at BNP Paribas - Digital Lab
         </span>
-        <span className='date-from'> Teammate - Agile coach </span>
+        <span className='date-from'> was my teammate - Agile coach  </span>
         <div className='message'>
-        Juan Carlos has been a very active member of the team. Always a force of proposals, he was able to bring his technological knowledge within the team acquired mainly during technological watch and the pleasure he has in exercising his young profession of fullstack developer.
-Beyond the technological aspect, he is a full member of an Agile team in which he does not hesitate to challenge himself and his team members in order to improve and make his working environment conducive to creativity and performance.
+          
+        <p> <span className='quote'>"</span>Juan Carlos has been always a force of proposals ... </p> <p>He is a full member of an Agile team in which he does not hesitate to challenge himself and his team members in order to improve and make his working environment conducive to creativity and performance.</p>
 
-Thank you Juan and I hope our paths will cross again sooner or later.
+<p>Thank you Juan and I hope our paths will cross again sooner or later.</p>
         </div>
     </div>
 
@@ -52,16 +53,16 @@ Thank you Juan and I hope our paths will cross again sooner or later.
       </div>
         <img className='avatar' src='/content/person.png' alt='' />
         <span className='person-information'>
-        Fullstack developer @ BNP Paribas
+        Erwan Le Goascoz at BNP Paribas - Messaging solutions
         </span>
-        <span className='date-from'> Teammate - Solution architect </span>
+        <span className='date-from'>was my teammate - Architect</span>
         <div className='message'>
-        I worked with Juan as part of the development of a "chatbot" for instant messaging. Me as a solution architect and he as a developer.
-Starting from a rather general knowledge of instant messaging, he first set out to understand the customer's needs by not hesitating to ask and re-ask questions! He immediately invested his time to gain expertise in this type of development.
-Result he very quickly appropriated the subject and carried out his project.
-It is with pleasure that I would work again with Juan if our paths cross again! Beyond the technological aspect, he is a full member of an Agile team in which he does not hesitate to challenge himself and challenge his team members in order to improve and make their working environment conducive to creativity and performance.
+        <p><span className='quote'>"</span> I worked with Juan as part of the of the "chatbot development"...</p>
+<p>He took care to understand the customer's needs by not hesitating to ask and re-ask questions! He invested his time to gain expertise...
+As a result, he very quickly appropriated and succeed on the project.</p>
+<p>It is with pleasure that I will work with Juan again if our paths cross again! </p>
 
-Thank you Juan and I hope our paths will cross again sooner or later.
+
         </div>
     </div>
     </div>

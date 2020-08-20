@@ -71,12 +71,13 @@ const Hero = () => {
       <h2 className='hero-title'>Welcome !</h2>
       <p className='hero-subtitle'>I create web things with love</p>
       <span className='hero-details'>
-        <p> I'm <b>Jean Coyla</b>, a passionated and confirmed developer, I care about the product quality 
-        so I'm always looking for new ways to improve my teammates work and also mine.<br/><br/> Curently I'm <b>looking for </b>
-        my next adventure to create awesome things with awesome people 😁.  <br/><br/>
+        <p> I'm <b>Jean Coyla</b>, a passionated and confirmed developer, I'm focused on product quality & user experience, I try to find new ways to improve my teammates work and mine.<br/><br/>
 
-        In my free time, I practice Wing Chun (do you know Ip Man ?), more often i train for an a upcoming Marathon and recently 
-        I'm learning to draw... Now I wish you a good visit !
+        At the moment my hobbies are, training for an a upcoming Marathon, martial arts and recently 
+        I'm learning to draw...<br/><br/>
+
+        Currently I'm <b>looking for </b>
+        my next adventure to create awesome things with awesome people 😁... Now I wish you a good visit !  
         </p>
       </span>
       <span className='action menu-icon' onClick={handleShow}>

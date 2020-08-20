@@ -39,7 +39,7 @@ return (
       </div>
     </div>
     <div className='copyright'>
-      Coyla @ 2020
+      Coyla © 2020
     </div>
   </div>
 )

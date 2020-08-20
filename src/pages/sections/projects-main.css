@@ -44,7 +44,7 @@ padding: 0 25px;
 .link-icons {
   display: inline-grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 10px;
+  column-gap: 20px;
 }
 
 .medias {
@@ -92,6 +92,10 @@ padding: 0 25px;
 
 
 @media only screen and (min-width: 992px) {
+
+  .ProjectsMain h4 {
+    text-align: left;
+  }
 
   .medias {
     width: 100%;
