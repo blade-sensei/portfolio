@@ -53,7 +53,9 @@ return (
           <a href='https://www.npmjs.com/package/mustache-layout-s' target='_blank'>
           <img className='btn' src='/content/link-dark.svg'/>
           </a>
+          <a href='https://github.com/blade-sensei/mustache-layout' target='_blank'>
           <img className='btn' src='/content/github-dark.svg'/>
+          </a>
         </div>
         
       </div>
@@ -61,7 +63,7 @@ return (
       <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
-          Integrate web SSO authentification into angular apps (internal) for BNP authentication security policies
+          Integrated web SSO authentification into Angular apps (internal) for BNP Paribas authentication security policies
           </span>
           <div className="tags">
             <span>#angular</span>
@@ -78,13 +80,11 @@ return (
       </div>
 
       
-
-
       <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
           "Avoid messy Git history and use linear history" post in order to 
-          share my way to improve code maintenance
+          share my way to improve code maintenance/versionning
           </span>
           <div className="tags">
             <span>#git</span>
@@ -94,8 +94,9 @@ return (
 
         </div>
         <div className="links">
+        <a href='https://dev.to/bladesensei/avoid-messy-git-history-3g26' target='_blank'>
           <img className='btn' src='/content/link-dark.svg'/>
-          <img className='btn' src='/content/github-dark.svg'/>
+          </a>
         </div>
         
       </div>
@@ -104,8 +105,7 @@ return (
       <div className="project" {...configAOS}>
         <div className="project-card-body">
           <span className='project-description'>
-            Bug tracker and consitnuos learning path to collect useful 
-            links.
+            Bug tracker and continuos learning path & useful links
           </span>
           <div className="tags">
             <span>#bug</span>
@@ -116,8 +116,12 @@ return (
 
         </div>
         <div className="links">
+        <a href='https://github.com/blade-sensei/learning/projects/3' target='_blank'>
           <img className='btn' src='/content/link-dark.svg'/>
+          </a>
+          <a href='https://github.com/blade-sensei/learning/blob/master/README.md' target='_blank'>
           <img className='btn' src='/content/github-dark.svg'/>
+          </a>
         </div>
         
       </div>
@@ -128,15 +132,16 @@ return (
             "A short and simple unit testing introduction" post
           </span>
           <div className="tags">
-            <span>#unit-testing</span>
+            <span>#unit-test</span>
             <span>#javascript</span>
             <span>#ava</span>
           </div>
 
         </div>
         <div className="links">
+        <a href='https://dev.to/bladesensei/avoid-messy-git-history-3g26' target='_blank'>
           <img className='btn' src='/content/link-dark.svg'/>
-          <img className='btn' src='/content/github-dark.svg'/>
+        </a>
         </div>
         
       </div>

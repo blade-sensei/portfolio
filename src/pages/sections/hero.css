@@ -146,6 +146,11 @@ text-decoration: none;
   .Hero .menu-header {
     display: none;
   }
+
+  .hero-title {
+    margin-top: 80px;
+  }
+
 }
  
 
@@ -177,7 +182,7 @@ text-decoration: none;
   }
 
   .hero-details {
-    width: 75%;
+    width: 90%;
     padding-left: 100px;
     padding-right: 100px;
   }

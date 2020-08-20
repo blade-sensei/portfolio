@@ -75,6 +75,11 @@ padding: 0 25px;
   border-radius: 3px;
 }
 
+.project {
+  margin-top: 30px;
+
+}
+
 
 
 @media only screen and (min-width: 768px) {
@@ -115,7 +120,7 @@ padding: 0 25px;
   .project {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 20px;
 
   }
 

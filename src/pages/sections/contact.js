@@ -15,25 +15,25 @@ return (
   <div className='Contact' id='contact'>
     <span className='caption'>So let’s talk</span>
     <div className='description'>
-    Fullstack developer @ BNP Paribas Dev Backoffice applications Fullstack JS (Angular + NodeJS Framework)
+    Work together, Try new things, Take risks, Have fun, Help, Feedback, Questions ? ! <br/>
     </div>
     <a className='go-to' href='https://www.linkedin.com/in/juan-carlos-coyla' {...configAOS}>
       Hello ! 👋
     </a>
 
-    <div className='links'  {...configAOS}>
+    <div className='links'>
 
       <div className='link-icons'>
-      <a href=''> 
+      <a href='https://github.com/blade-sensei' target='_blank'> 
       <img src='/content/github-bot.svg'></img>
       </a>
-      <a href=''>
+      <a href='https://www.linkedin.com/in/juan-carlos-coyla' target='_blank'> 
       <img src='/content/linkedin-bot.svg'></img>
       </a>
-      <a href=''> 
+      <a href='https://dev.to/bladesensei' target='_blank'> 
       <img src='/content/devto-bot.svg'></img>
        </a>
-       <a href=''> 
+       <a href='mailto:jcarlos.coyla@gmail.com' target='_blank'> 
       <img src='/content/mail-bot.svg'></img>
        </a>
       </div>

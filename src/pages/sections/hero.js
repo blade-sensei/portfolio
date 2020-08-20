@@ -71,8 +71,8 @@ const Hero = () => {
       <h2 className='hero-title'>Welcome !</h2>
       <p className='hero-subtitle'>I create web things with love</p>
       <span className='hero-details'>
-        <p> I'm a <b>Jean Coyla</b>, a passionated and confirmed developer, I'm fond of the product quality 
-        so I'm always looking for new ways to improve my teammates work and also mine. Curently I'm <b>looking for </b>
+        <p> I'm <b>Jean Coyla</b>, a passionated and confirmed developer, I care about the product quality 
+        so I'm always looking for new ways to improve my teammates work and also mine.<br/><br/> Curently I'm <b>looking for </b>
         my next adventure to create awesome things with awesome people 😁.  <br/><br/>
 
         In my free time, I practice Wing Chun (do you know Ip Man ?), more often i train for an a upcoming Marathon and recently 

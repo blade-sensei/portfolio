@@ -30,6 +30,7 @@ body {
   color: #132242;
   font-weight: 300;
   font-size: 18px;
+  line-height: 1.4;
 }
 
 .btn {
@@ -39,12 +40,23 @@ body {
 
 h3 {
   font-family: Futura-Medium;
-  font-size: 36px;
+  font-size: 42px;
   color: #132242;
   letter-spacing: 0;
   text-align: center;
-  line-height: 38px;
+  line-height: 1.2;
 }
+
+h4 {
+  font-family: Futura-Medium;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #132242;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
 
 
 @media only screen and (min-width: 768px) {

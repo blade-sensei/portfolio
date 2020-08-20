@@ -20,15 +20,19 @@ return (
     <div className='project'>
       <div className='left'>
       <div className='project-description' {...configAOS}>
-        <p>Web App for to manage simple projects, inspired by
-        Trello edition modals. </p>
-        <p>This app has authentication, search and crud components.</p>
-        <p>This is designed with Mobile First approach.</p>
+        <h4>Angular app to manage simple projects, inspired by
+        Trello edition modals. </h4>
+        <p>Features: authentication(tokens), search, notifications, create and editions</p>
+        <p>Designed with Mobile First approach.</p>
       </div>
       <div className='links'>
       <div className='link-icons'>
-        <img href='https://github.com/blade-sensei/rtn-front' className='btn' src='/content/link-pink.svg'/>
-        <img href='https://roadtoninja-f5ad8.firebaseapp.com' taget='_blank' className='btn' src='/content/github.svg'/>
+        <a href='https://roadtoninja-f5ad8.firebaseapp.com' target='_blank' >
+        <img alt='github link'className='btn' src='/content/link-pink.svg'/>
+        </a>
+        <a  href='https://github.com/blade-sensei/rtn-front' target='_blank'>
+        <img alt='demo link' className='btn' src='/content/github.svg'/>
+        </a>
         </div>
       </div>
       </div>
@@ -42,7 +46,7 @@ return (
         <span>#mongodb</span>
         <span>#cloud</span>
         <span>#heroku</span>
-        <span>#mobile-ux</span>
+        <span>#mobile</span>
       </div>
       </div>
     </div>
@@ -50,17 +54,22 @@ return (
     <div className='project'>
       <div className='right'> 
       <div className='project-description' {...configAOS}>
-      <p>Single page app that retrieves & displayes github issues of whole
-        user repositories. The issues are filtered by date (calendar).
-        This was made for my personal use.</p>
-        <p>I used the GraphQL API of Github and Gatsby/React for the frontend. </p>
-        <p>Hosted on Netlify Cloud.</p>
+      <h4>React SPA that shows issues & comments of all
+        github user repositories. </h4>
+        
+        <p>Issues are filtered by date (calendar).</p>
+        <p>Made for my personal use.</p>
+        <p>Stack: GraphQL API of Github, Gatsby/React for the frontend and hosted on Netlify Cloud </p>
       </div>
       
       <div className='links'>
       <div className='link-icons'>
-        <img href='https://github.com/blade-sensei/rtn-front' className='btn' src='/content/link-pink.svg'/>
-        <img href='https://roadtoninja-f5ad8.firebaseapp.com' taget='_blank' className='btn' src='/content/github.svg'/>
+        <a alt='github link' href='https://github-review.netlify.app' target='_blank'>
+        <img className='btn' src='/content/link-pink.svg'/>
+        </a>
+        <a alt='demo link' href='https://github.com/blade-sensei/rtn-review' target='_blank' >
+        <img taget='_blank' className='btn' src='/content/github.svg'/>
+        </a>
       </div>
       </div>
       </div>
@@ -68,10 +77,11 @@ return (
         <div className='medias'>
           <img src='/content/github-review.gif' alt='gif'/>
         </div>
-        <div className='tags' {...configAOS}>
+        <div className='tags'>
           <span>#react</span>
           <span>#gatsby</span>
           <span>#graphql</span>
+          <span>#apollo</span>
           <span>#netlify</span>
         </div>
       </div>
@@ -80,15 +90,19 @@ return (
     <div className='project'>
     <div className="left">
       <div className='project-description'  {...configAOS}>
-      <p>Rest API for a project management app. I worked on it with a friend that wanted to
-        know how to design/build APIs.</p>
-        <p>This API is documented and is covered by unit testing code.</p>
-        <p>Hosted on Heroku and uses Atlas MongoDB to persist data.</p>
+      <h4>Node.js API: backend for project management app. </h4>
+      <p>Collaborate with a friend to teach how APIs works.</p>
+        <p>Documented/swagger & covered by unit tests.</p>
+        <p>Stack: Express, Heroku cloud & Atlas MongoDB to persist data.</p>
       </div>
       <div className='links'>
         <div className='link-icons'>
-          <img src='/content/link-pink.svg'/>
-          <img src='/content/github.svg'/>
+        <a href='https://road-to-ninja-app.herokuapp.com/explorer' target='_blank' >
+        <img alt='github link'className='btn' src='/content/link-pink.svg'/>
+        </a>
+        <a href='https://github.com/blade-sensei/rtn-api' target='_blank' >
+        <img alt='demo link'className='btn' src='/content/github.svg'/>
+        </a>
         </div> 
       </div>
       </div>
@@ -100,7 +114,7 @@ return (
         <span>#nodejs</span>
         <span>#mongodb</span>
         <span>#heroku</span>
-        <span>#documented</span>
+        <span>#swagger</span>
         <span>#testing</span>
       </div>
       </div>
