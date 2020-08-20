@@ -21,7 +21,7 @@ const Testimonials = () => {
       </div>
         <img className='avatar' src='/content/person.png' alt='' />
         <span className='person-information'>
-        Benjamin Marchand  at BNP Paribas - Digital Lab
+        Benjamin Marchand @ BNP Paribas Digital Lab
         </span>
         <span className='date-from'>was my Lead Tech & Manager</span>
         <div className='message'>
@@ -37,12 +37,12 @@ const Testimonials = () => {
       </div>
         <img className='avatar' src='/content/person.png' alt='' />
         <span className='person-information'>
-        Thomas Vauzelle at BNP Paribas - Digital Lab
+        Thomas Vauzelle @ BNP Paribas Digital Lab
         </span>
         <span className='date-from'> was my teammate - Agile coach  </span>
         <div className='message'>
           
-        <p> <span className='quote'>"</span>Juan Carlos has been always a force of proposals ... </p> <p>He is a full member of an Agile team in which he does not hesitate to challenge himself and his team members in order to improve and make his working environment conducive to creativity and performance.</p>
+        <p> <span className='quote'>"</span>Juan Carlos has been always a force of proposals ... He is a full member of an Agile team in which he doesn't hesitate to challenge himself and his teammates in order to improve and make his working environment conducive to creativity and performance.</p>
 
 <p>Thank you Juan and I hope our paths will cross again sooner or later.</p>
         </div>
@@ -52,13 +52,12 @@ const Testimonials = () => {
     <div className='circle'>
       </div>
         <img className='avatar' src='/content/person.png' alt='' />
-        <span className='person-information'>
-        Erwan Le Goascoz at BNP Paribas - Messaging solutions
+        <span className='person-information'>Erwan Le Goascoz @ BNP Paribas
         </span>
         <span className='date-from'>was my teammate - Architect</span>
         <div className='message'>
-        <p><span className='quote'>"</span> I worked with Juan as part of the of the "chatbot development"...</p>
-<p>He took care to understand the customer's needs by not hesitating to ask and re-ask questions! He invested his time to gain expertise...
+        <p><span className='quote'>"</span> I worked with Juan as part of the "chatbot project"...
+He took care to understand the customer's needs by not hesitating to ask and re-ask questions! He invested his time to gain expertise.
 As a result, he very quickly appropriated and succeed on the project.</p>
 <p>It is with pleasure that I will work with Juan again if our paths cross again! </p>
 

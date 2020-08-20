@@ -43,7 +43,7 @@ return (
       <div className='tags' {...configAOS}>
         <span>#angular</span>
         <span>#nodejs</span>
-        <span>#mongodb</span>
+        <span>#mongo</span>
         <span>#cloud</span>
         <span>#heroku</span>
         <span>#mobile</span>
@@ -112,10 +112,11 @@ return (
       </div>
       <div className='tags' {...configAOS}>
         <span>#nodejs</span>
-        <span>#mongodb</span>
+        <span>#mongo</span>
         <span>#heroku</span>
         <span>#swagger</span>
         <span>#testing</span>
+        <span>#security</span>
       </div>
       </div>
     </div>

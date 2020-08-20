@@ -69,7 +69,7 @@ const Hero = () => {
         </div>
       
       <h2 className='hero-title'>Welcome !</h2>
-      <p className='hero-subtitle'>I create web things with love</p>
+      <p className='hero-subtitle'>I'm someone who creates things with love</p>
       <span className='hero-details'>
         <p> I'm <b>Jean Coyla</b>, a passionated and confirmed developer, I'm focused on product quality & user experience, I try to find new ways to improve my teammates work and mine.<br/><br/>
 

@@ -33,6 +33,7 @@
   text-align: center;
   width: 60%;
   margin: 0 auto;
+  font-weight: normal;
 }
 
 .Testimonials .testimonial {
@@ -44,11 +45,18 @@
 
 .testimonial .message {
   padding: 20px;
-  margin-top: 25px;
+  margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
   color: black;
   line-height: 1.5;
+  box-shadow: rgba(0, 0, 0, 0.12) 0.2125rem 0.2125rem 0.5375rem;
+  transition: transform .3s,background-color .3s,box-shadow .6s,-webkit-transform .3s;
+}
+
+.testimonial .message:hover {
+  transform: translateY(-3px);
+    box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
 }
 
 .date-from {
@@ -67,9 +75,9 @@
 }
 
 .quote {
-  font-size: 4.5em;
+  font-size: 4em;
   color: #105e74;
-  line-height: 1;
+  line-height: 0.8;
 }
 
 
@@ -84,12 +92,13 @@
 
 @media only screen and (min-width: 1200px) {
   .Testimonials {
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .testimonials {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
   }
 }
