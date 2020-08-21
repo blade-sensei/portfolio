@@ -98,7 +98,7 @@ width: fit-content;
 padding: 7px 16px;
   background-color: transparent;
   font-family: HiraginoSans-W3;
-background: #20e5dd;
+background: #85e6e1;
 letter-spacing: 0;
 text-align: center;
 margin-top: 50px;
@@ -113,8 +113,8 @@ text-decoration: none;
 
 
 .explore:hover {
-  background-color: rgb(133 230 225);
-  color: black;
+  background-color: rgb(152 237 231);
+  color: #132242;
 }
 
 .menu-icon {

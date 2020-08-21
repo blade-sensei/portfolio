@@ -22,7 +22,7 @@ return (
       <div className='project-description' {...configAOS}>
         <h4>Angular app to manage simple projects, inspired by
         Trello edition modals. </h4>
-        <p>Features: authentication(tokens), search, notifications, create and editions</p>
+        <p>Features: authentication with JWT, search, notifications, create and editions</p>
         <p>Designed with Mobile First approach.</p>
       </div>
       <div className='links'>

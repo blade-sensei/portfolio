@@ -8,10 +8,11 @@
 
 .Contact .caption {
   margin-top: 10px;
-  font-family: Futura-Medium;
-  font-size: 38px;
-  letter-spacing: 0;
-  align-self: center;
+    font-family: Futura-Medium;
+    font-size: 42px;
+    letter-spacing: 0;
+    align-self: center;
+    font-weight: 700;
 }
 
 .Contact .description {
@@ -20,6 +21,7 @@
   color: black;
   padding-left: 40px;
   padding-right: 40px;
+  font-size: 1.2em;
 }
 
 .go-to {
