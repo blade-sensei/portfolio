@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 29px;
-  margin-bottom: 130px;
+  margin-bottom: 160px;
 }
 
 .Hero p, b {
@@ -94,18 +94,18 @@ line-height: 1.4;
 
 .Hero .explore {
   font-size: 1.2em;
-  border: 1px solid #21ECF3;
-  width: 137px;
-  height: 46px;
+width: fit-content;
+padding: 7px 16px;
   background-color: transparent;
   font-family: HiraginoSans-W3;
-color: #21ECF3;
+background: #20e5dd;
 letter-spacing: 0;
 text-align: center;
 margin-top: 50px;
-align-self: center;
+align-self: left;
 text-decoration: none;
     line-height: 40px;
+    color: #132242
     
   
 }
@@ -113,7 +113,6 @@ text-decoration: none;
 
 
 .explore:hover {
-  border: 1px solid #132242;
   background-color: rgb(133 230 225);
   color: black;
 }
@@ -151,6 +150,10 @@ text-decoration: none;
     margin-top: 80px;
   }
 
+  .explore {
+    margin-left: 25px;
+  }
+
 }
  
 
@@ -185,6 +188,10 @@ text-decoration: none;
     width: 90%;
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .explore {
+    margin-left: 100px;
   }
 
   
@@ -231,6 +238,10 @@ text-decoration: none;
     padding-right: 0;
   }
 
+  .explore {
+    margin-left: 0;
+  }
+
 
 }
 
@@ -245,7 +256,7 @@ text-decoration: none;
   }
 
   .hero-details {
-    width: 55%;
+    width: 60%;
   }
 
   .menu-header a {

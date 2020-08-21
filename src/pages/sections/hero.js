@@ -71,15 +71,13 @@ const Hero = () => {
       <h2 className='hero-title'>Welcome !</h2>
       <p className='hero-subtitle'>I'm someone who creates things with love</p>
       <span className='hero-details'>
-        <p> I'm <b>Jean Coyla</b>, a passionated and confirmed developer, I'm focused on product quality & user experience, I try to find new ways to improve my teammates work and mine.<br/><br/>
-
-        At the moment my hobbies are, training for an a upcoming Marathon, martial arts and recently 
-        I'm learning to draw...<br/><br/>
+        <p> I'm <b>Jean Coyla</b>, a passionated & confirmed developer, I am focused on the quality, the user experience and my teammates...
 
         Currently I'm <b>looking for </b>
-        my next adventure to create awesome things with awesome people 😁... Now I wish you a good visit !  
+        a new adventure to create awesome things with awesome people 😁... Now I wish you a good visit !  
         </p>
       </span>
+      <a href='https://www.linkedin.com/in/juan-carlos-coyla' target='_blank' className='action action-dark explore'>Work together</a>
       <span className='action menu-icon' onClick={handleShow}>
           <BurgerMenuSvg/>
       </span>
