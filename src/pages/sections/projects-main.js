@@ -22,7 +22,7 @@ return (
       <div className='project-description' {...configAOS}>
         <h4>Angular app to manage simple projects, inspired by
         Trello edition modals. </h4>
-        <p>Features: authentication with JWT, search, notifications, create and editions</p>
+        <p>Authentication JWT, Search, Notifications, Crud</p>
         <p>Designed with Mobile First approach.</p>
       </div>
       <div className='links'>
@@ -59,7 +59,7 @@ return (
         
         <p>Issues are filtered by date (calendar).</p>
         <p>Made for my personal use.</p>
-        <p>Stack: GraphQL API of Github, Gatsby/React for the frontend and hosted on Netlify Cloud </p>
+        <p>GraphQL API, Gatsby/React for the frontend & hosted on Netlify Cloud </p>
       </div>
       
       <div className='links'>
@@ -92,7 +92,8 @@ return (
       <div className='project-description'  {...configAOS}>
       <h4>Node.js API: backend for project management app. </h4>
       <p>Teamwork with a friend to teach him how APIs works.</p>
-        <p>Documented/swagger & covered by unit tests.</p>
+        <p>Documented/swagger for routes information</p>
+        <p>Covered by unit tests using AVA.</p>
         <p>Stack: Express, Heroku cloud & Atlas MongoDB to persist data.</p>
       </div>
       <div className='links'>

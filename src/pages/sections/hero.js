@@ -71,7 +71,7 @@ const Hero = () => {
       <h2 className='hero-title'>Welcome !</h2>
       <p className='hero-subtitle'>I'm someone who creates things with love</p>
       <span className='hero-details'>
-        <p> I'm <b>Jean Coyla</b>, a passionated & confirmed developer, I am focused on the quality, the user experience and my teammates...
+        <p> I'm <b>Jean Coyla</b>, a passionated & confirmed developer, I am focused on the quality, the user experience and my teammates productivity...
 
         Currently I'm <b>looking for </b>
         a new adventure to create awesome things with awesome people 😁... Now I wish you a good visit !  
