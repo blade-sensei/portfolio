@@ -3,6 +3,7 @@
   flex-direction: column;
   margin-bottom: 29px;
   margin-bottom: 160px;
+  height: 100vh;
 }
 
 .Hero p, b {
